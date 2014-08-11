@@ -7,5 +7,4 @@ class User < ActiveRecord::Base
   has_many :pins
 
   validates :name, presence: true
-  validates :image, presence: true
 end
